@@ -42,7 +42,8 @@ const CameraScreen = ({navigation}) => {
   console.log('After requesting Microphone Permission:', microphonePermission);
 
   if (!hasPermission || !microphonePermission) {
-    return <ActivityIndicator />;
+    // return <ActivityIndicator />;
+    
   }
 
   useEffect(() => {
